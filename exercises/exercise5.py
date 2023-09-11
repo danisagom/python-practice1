@@ -10,9 +10,7 @@ variable_01 = "¡Buenos "
 variable_02 = "días "
 variable_03 = "a todos!"
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+strings_concatenados=variable_01+variable_02+variable_03
 
 assert strings_concatenados == "¡Buenos días a todos!"
 
@@ -22,15 +20,7 @@ Formatear los siguientes strings en un único string.
 Restricción: Usar directamente los strings y la concatenación automática (no
 usar operadores).
 """
-
-# "¡Mamá "
-# "estoy concatenando "
-# "strings!"
-
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
-
+strings_concatenados="¡Mamá estoy concatenando strings!"
 assert strings_concatenados == "¡Mamá estoy concatenando strings!"
 
 
@@ -44,9 +34,7 @@ variable_01 = "Le debo "
 variable_02 = 600
 variable_03 = " pesos a un amigo."
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+strings_concatenados=variable_01+ str("variable_02")+variable_03
 
 assert strings_concatenados == "Le debo 600 pesos a un amigo."
 
@@ -63,10 +51,8 @@ variable_03 = " pesos a un amigo hace "
 variable_04 = " años."
 variable_05 = "Ezequiel"
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
-
+strings_concatenados ="{}{}{}{}{} se llama {}"  
+format(variable_01,variable_02,variable_03,variable_04,variable_05)
 assert (
     strings_concatenados == "Le debo 6 pesos a un amigo hace 6 años. Se llama Ezequiel"
 )
@@ -82,8 +68,6 @@ variable_02 = 2
 variable_03 = " pesos que le debía a Ezequiel, me faltan $"
 variable_04 = 4
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+strings_concatenados="f{variable_01}{variable_02}{variable_03}{variable_04}"
 
 assert strings_concatenados == "Le pagué 2 pesos que le debía a Ezequiel, me faltan $4"
