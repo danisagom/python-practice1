@@ -7,10 +7,7 @@ Restricción: Usar el operador de multiplicación
 """
 
 lado_cuadrado = 5
-
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+area_cuadrado=lado_cuadrado*lado_cuadrado
 
 assert area_cuadrado == 25
 
@@ -21,9 +18,7 @@ Re-Escribir usando el operador de potencia.
 
 lado_cuadrado = 5
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+area_cuadrado=lado_cuadrado**2
 
 assert area_cuadrado == 25
 
@@ -34,9 +29,7 @@ Re-Escribir usando la función pow.
 
 lado_cuadrado = 5
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
+area_cuadrado=pow(lado_cuadrado,2)
 
 assert area_cuadrado == 25
 
@@ -49,10 +42,7 @@ Restricción: Usar el operador de división entera.
 precio = 3.74
 presupuesto_disponible = 10
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
-
+cantidad_a_comprar=presupuesto_disponible // precio
 assert cantidad_a_comprar == 2
 
 
@@ -63,8 +53,5 @@ Restricción: Usar el operador módulo.
 
 numero_incalculable = 2 ** 54 - 1
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
-
-assert es_divisible_por_siete
+es_divisible_por_siete= numero_incalculable % 7 ==0
+assert es_divisible_por_siete 
