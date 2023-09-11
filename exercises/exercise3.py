@@ -10,10 +10,9 @@ persona_01 = "Kevin"
 edad_01 = 24
 persona_02 = "Kevin"
 edad_02 = 41
+comparar_nombre_y_edad=persona_01==persona_02 or edad_01 !=edad_02
 
-# COMPLETAR - INICIO
 
-# COMPLETAR - FIN
 
 assert comparar_nombre_y_edad
 
@@ -26,10 +25,8 @@ Aclaración: Se puede utilizar and, or y not.
 
 marca_del_auto = "Chevrolet"
 modelo_de_auto = 1998
+comparar_marca_y_modelo= marca_del_auto!="ford"and modelo_de_auto<=2000
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
 
 assert comparar_marca_y_modelo
 
@@ -44,10 +41,8 @@ Restricción: Utilizar comparaciones encadenadas - No utilizar and, or ni not.
 superficie_de_campo_01 = 85121
 superficie_de_campo_02 = 851212
 superficie_de_campo_03 = 8512
+comparar_superficie=superficie_de_campo_03<superficie_de_campo_01<superficie_de_campo_02
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
 
 assert comparar_superficie
 
@@ -65,8 +60,5 @@ naranjas = 400
 manzanas = 300
 peras = 30
 
-# COMPLETAR - INICIO
-
-# COMPLETAR - FIN
-
+comparar_frutas=bananas<naranjas/2<manzanas*2<=peras**2
 assert comparar_frutas
